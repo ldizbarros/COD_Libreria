@@ -24,4 +24,9 @@ public class Libreria {
         int dato = Integer.parseInt(JOptionPane.showInputDialog(mensaje));
         return dato;
     }
+    
+    public static float pedirDatoFloat(String mensaje){
+        float dato = Float.parseFloat(JOptionPane.showInputDialog(mensaje));
+        return dato;
+    }
 }
