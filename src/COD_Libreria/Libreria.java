@@ -14,4 +14,9 @@ public class Libreria {
     public static void mostrarMensaje(String mensaje){
         JOptionPane.showMessageDialog(null, mensaje);
     }
+    
+    public static String pedirDatoString(String mensaje){
+        String dato = JOptionPane.showInputDialog(mensaje);
+        return dato;
+    }
 }
