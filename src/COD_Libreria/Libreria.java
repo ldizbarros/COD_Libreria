@@ -10,4 +10,8 @@ public class Libreria {
         int opcion = JOptionPane.showConfirmDialog(frame, mensaje, "Pregunta", JOptionPane.YES_NO_OPTION);
         return opcion;
     }
+    
+    public static void mostrarMensaje(String mensaje){
+        JOptionPane.showMessageDialog(null, mensaje);
+    }
 }
