@@ -19,4 +19,9 @@ public class Libreria {
         String dato = JOptionPane.showInputDialog(mensaje);
         return dato;
     }
+    
+    public static int pedirDatoInt(String mensaje){
+        int dato = Integer.parseInt(JOptionPane.showInputDialog(mensaje));
+        return dato;
+    }
 }
