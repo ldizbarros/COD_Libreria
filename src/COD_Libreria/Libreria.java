@@ -29,4 +29,9 @@ public class Libreria {
         float dato = Float.parseFloat(JOptionPane.showInputDialog(mensaje));
         return dato;
     }
+    
+    public static double pedirDatoDouble(String mensaje){
+        double dato = Double.parseDouble(JOptionPane.showInputDialog(mensaje));
+        return dato;
+    }
 }
